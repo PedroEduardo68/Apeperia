@@ -8,33 +8,35 @@
 
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bases.css" rel="stylesheet" >
     <link href="css/cabecalho.css" rel="stylesheet" >
-    <link href="css/chamada.css" rel="styledsheet" >
+    <link href="css/chamada.css" rel="stylesheet" >
 
 
   </head>
   <body>
-    <header>
-      <img src="img/logo-apeperia.svg" alt="Texto alternativo da logo: Logo da Apeperia">
-      <nav>
+    <header class="cabecalho">
+      <img src="img/logo-apeperia.svg" alt="Texto alternativo da logo: Logo da Apeperia" class="cabecalho__logo">
+      <nav class="cabecalho__navegacao">
         <ul>
-          <li><a href="Sobre"></a></li>
-          <li><a href="Planos"></a></li>
-          <li><a href="Blog"></a></li>
-          <li><a href="Destaques"></a></li>
-          <li><a href="Institucional"></a></li>
-          <li><a href="Contato"></a></li>
+          <li class="cabecalho__link"><a href="#">Sobre</a></li>
+          <li class="cabecalho__link"><a href="#">Planos</a></li>
+          <li class="cabecalho__link"><a href="#">Blog</a></li>
+          <li class="cabecalho__link"><a href="#">Destaques</a></li>
+          <li class="cabecalho__link"><a href="#">Institucional</a></li>
+          <li class="cabecalho__link"><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
     <main>
 
-      <section>
-        <h1>Aplicativos Na Medida</h1>
-        <p>
+      <section class="chamada">
+        <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+        <p class="chamada__texto">
           Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.
         </p>
-        <a href="#" >Conheça os planos</a>
+        <a href="#"  class="chamada__botao">Conheça os planos</a>
       </section>
     </main>
   </body>
